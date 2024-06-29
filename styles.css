@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header-container {
+    background: #DBD5CD url(./src/svg-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 39%;
+    background-position: center right;
+    height: 70dvh;
+    width: 100dvw;
+}
+
+.nav-bar {
+    width: 60px;
+    padding: 10px;
+}
+
+.nav-bar div {
+    height: 2px;
+    width: 30px;
+    background-color: black;
+    margin: 5px;
+    border-radius: 15px;
+}
+.header-img {
+    width: 10%;
+}
+.header-container img{
+    object-fit: cover;
+}
