@@ -8,6 +8,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
 h1,h4 {
     font-family: Canela-LightItalic, "sans-serif";
     line-height: 1.25em;
@@ -17,6 +18,7 @@ h1,h4 {
     text-decoration-thickness: 1px;
     text-underline-offset: 20%;
 }
+
 p {
     font-family: GT America Light, "sans-serif";
 }
@@ -43,6 +45,7 @@ p {
     margin-top: 120px;
     padding-left: 5dvw;
 }
+
 .header-container .sub-container div {
     align-items: center;
 }
@@ -88,6 +91,7 @@ form input{
     border-width: 1px;
     font-size: 15px;
 }
+
 .sub-container input {
     margin-top: 30px;
 }
@@ -101,33 +105,40 @@ form input{
     padding: 5px 10px;
     margin: 0 10dvw;
 }
+
 .container-main .sub-container h4 {
     font-size: 19px;
     text-decoration: none;
     margin: 30px 10px;
 }
+
 .profile-section {
     display: flex;
     flex-wrap: wrap;
 
 }
+
 .profile-section > * {
     flex: 0 1 22%;
     margin: 10px 15px 30px;
     
 }
+
 .profile-section .profile p + h1 {
     font-size: 1em;
     text-decoration: none;
     padding: 3px;
 }
+
 .profile-section .profile p {
     font-weight: 600;
 }
+
 .profile-section .profile img {
     width: 100%;
     object-fit: cover;
 }
+
 .container-main .sub-container > :last-child {
     text-decoration: underline;
     text-align: center;
@@ -138,26 +149,62 @@ footer .container {
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 25px 25px;
+    padding: 30px 30px;
     height: 65dvh;
+    flex: 1 1 30%;
 }
 
 footer .container .section {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 10px;
-    margin: 50px 20px; 
+    margin-top: 60px ;
+    padding: 20px;
 }
 
-.media-icons {
+footer .container > :nth-child(2) {
+    flex-basis: 40%;
+}
+
+footer .section:last-child > div:not(:first-child) {
+    margin-top: 40px;   
+}
+
+
+footer .sub-section button {
+    margin-top: 40px;
+    padding: 10px 15px;
+    background-color: #2F2D2A;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+footer .icons-section .media-icons {
     height: 20px;
     aspect-ratio: 1;
     margin-left: 20px;
     margin-top: 10px;
 }
 
-footer .sub-section .small-logo {
-    height: 15%;
+footer .media-icons:first-child {
+    margin-left: 0;
+}
+
+footer .small-logo {
+   height: 50px;
+}
+
+footer .sub-section p {
+    font-size: 15px;
+}
+
+footer .section:first-of-type > div:last-child {
+    margin-top: 140px;
+
+}
+
+footer .section:nth-of-type(2) > div:last-child {
+    
+    margin-top: 100px;
 }
 
