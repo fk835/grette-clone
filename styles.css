@@ -104,7 +104,60 @@ form input{
 .container-main .sub-container h4 {
     font-size: 19px;
     text-decoration: none;
+    margin: 30px 10px;
+}
+.profile-section {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.profile-section > * {
+    flex: 0 1 22%;
+    margin: 10px 15px 30px;
+    
+}
+.profile-section .profile p + h1 {
+    font-size: 1em;
+    text-decoration: none;
+    padding: 3px;
+}
+.profile-section .profile p {
+    font-weight: 600;
+}
+.profile-section .profile img {
+    width: 100%;
+    object-fit: cover;
+}
+.container-main .sub-container > :last-child {
+    text-decoration: underline;
+    text-align: center;
+}
+
+footer .container {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px;
+    height: 65dvh;
+}
+
+footer .container .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 10px;
-    margin: 20px 0;
+    margin: 50px 20px; 
+}
+
+.media-icons {
+    height: 20px;
+    aspect-ratio: 1;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+footer .sub-section .small-logo {
+    height: 15%;
 }
 
